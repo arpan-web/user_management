@@ -1,0 +1,102 @@
+/* ========== STYLE DASAR ========== */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #2980b9, #6dd5fa);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+/* ========== KONTENER UTAMA ========== */
+.container {
+  background: #ffffff;
+  padding: 40px 50px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  width: 400px;
+  text-align: center;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* ========== JUDUL ========== */
+h2 {
+  color: #2c3e50;
+  margin-bottom: 25px;
+}
+
+/* ========== FORM ========== */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #2980b9;
+  box-shadow: 0 0 5px rgba(41, 128, 185, 0.3);
+}
+
+/* ========== TOMBOL ========== */
+button {
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #3498db;
+  transform: scale(1.03);
+}
+
+/* ========== PESAN ========== */
+.message {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.message.error {
+  background: #ffe6e6;
+  color: #e74c3c;
+}
+
+.message.success {
+  background: #e6ffea;
+  color: #27ae60;
+}
+
+/* ========== LINK ========== */
+a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ========== ANIMASI ========== */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
