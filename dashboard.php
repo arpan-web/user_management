@@ -20,7 +20,7 @@ if (!isset($_SESSION['user_id'])) {
       margin: 40px auto;
       padding: 30px;
       border-radius: 15px;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
       animation: fadeIn 0.5s ease-in-out;
     }
 
@@ -38,7 +38,7 @@ if (!isset($_SESSION['user_id'])) {
 
     .user-info a {
       margin: 0 8px;
-      color: #2980b9;
+      color: #007bff;
       text-decoration: none;
       font-weight: 600;
     }
@@ -60,7 +60,7 @@ if (!isset($_SESSION['user_id'])) {
     }
 
     th {
-      background: #2980b9;
+      background: #007bff;
       color: white;
       text-transform: uppercase;
       font-size: 14px;
@@ -72,7 +72,7 @@ if (!isset($_SESSION['user_id'])) {
 
     .add-btn {
       display: inline-block;
-      background: #27ae60;
+      background: #28a745;
       color: white;
       padding: 10px 18px;
       border-radius: 8px;
@@ -82,12 +82,12 @@ if (!isset($_SESSION['user_id'])) {
     }
 
     .add-btn:hover {
-      background: #2ecc71;
-      transform: scale(1.03);
+      background: #218838;
+      transform: scale(1.02);
     }
 
     .action a {
-      color: #2980b9;
+      color: #007bff;
       font-weight: 600;
       text-decoration: none;
     }

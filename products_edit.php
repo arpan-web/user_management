@@ -33,74 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
 <meta charset="utf-8">
 <title>Edit Produk</title>
-<style>
-    body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background: #f4f7fc;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        margin: 0;
-    }
-    .container {
-        background: #fff;
-        padding: 30px 40px;
-        border-radius: 15px;
-        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-        width: 400px;
-    }
-    h2 {
-        text-align: center;
-        margin-bottom: 25px;
-        color: #333;
-    }
-    label {
-        font-weight: 600;
-        display: block;
-        margin-top: 10px;
-        margin-bottom: 5px;
-    }
-    input[type="text"],
-    input[type="number"],
-    textarea {
-        width: 100%;
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 8px;
-        box-sizing: border-box;
-        font-size: 14px;
-        resize: none;
-    }
-    textarea {
-        height: 80px;
-    }
-    button {
-        width: 100%;
-        background: #007bff;
-        color: #fff;
-        border: none;
-        padding: 12px;
-        font-size: 15px;
-        border-radius: 8px;
-        cursor: pointer;
-        margin-top: 20px;
-        transition: 0.3s;
-    }
-    button:hover {
-        background: #0056b3;
-    }
-    a {
-        text-decoration: none;
-        color: #007bff;
-        display: block;
-        text-align: center;
-        margin-top: 15px;
-    }
-    a:hover {
-        text-decoration: underline;
-    }
-</style>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div class="container">

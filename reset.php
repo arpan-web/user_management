@@ -40,77 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <title>Reset Password</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #74ABE2, #5563DE);
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .reset-container {
-            background: #fff;
-            padding: 25px 30px;
-            border-radius: 12px;
-            box-shadow: 0 6px 15px rgba(0,0,0,0.15);
-            width: 350px;
-        }
-        h2 {
-            text-align: center;
-            color: #444;
-        }
-        form {
-            margin-top: 20px;
-        }
-        label {
-            display: block;
-            margin-bottom: 6px;
-            font-weight: bold;
-        }
-        input[type="password"] {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 14px;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-        }
-        button {
-            width: 100%;
-            padding: 10px;
-            background-color: #5563DE;
-            color: white;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            font-weight: bold;
-        }
-        button:hover {
-            background-color: #4453c4;
-        }
-        .error {
-            color: red;
-            text-align: center;
-            margin-bottom: 10px;
-        }
-        .success-box {
-            background-color: #e9ffe9;
-            color: #2b8a3e;
-            padding: 15px;
-            border-radius: 10px;
-            text-align: center;
-            font-size: 16px;
-            margin: 20px;
-        }
-        a {
-            color: #5563DE;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div class="reset-container">

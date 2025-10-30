@@ -21,7 +21,7 @@ function sendEmail($to, $toName, $subject, $bodyHtml) {
         $mail->addAddress($to, $toName);                 // Kirim ke user baru
 
         // === Tambahkan agar admin juga dapat salinan ===
-        $mail->addBCC('Arfantri78@gmail.com', 'Admin Gudang'); // Salinan diam-diam ke admin
+        $mail->addBCC('Arfantri78@gmail.com', 'Admin Gudang'); 
 
         // === Konten email ===
         $mail->isHTML(true);
@@ -36,13 +36,13 @@ function sendEmail($to, $toName, $subject, $bodyHtml) {
         $adminMail->isSMTP();
         $adminMail->Host = 'smtp.gmail.com';
         $adminMail->SMTPAuth = true;
-        $adminMail->Username = 'perdisandira284@gmail.com';
-        $adminMail->Password = 'iitaxmwdmujgaect';
+        $adminMail->Username = 'Arfantri78@gmail.com';
+        $adminMail->Password = 'phntvrygjphmybt';
         $adminMail->SMTPSecure = 'tls';
         $adminMail->Port = 587;
 
-        $adminMail->setFrom('perdisandira284@gmail.com', 'Sistem Gudang');
-        $adminMail->addAddress('perdisandira284@gmail.com', 'Admin Gudang');
+        $adminMail->setFrom('Arfantri78@gmail.com', 'Sistem Gudang');
+        $adminMail->addAddress('Arfantri78@gmail.com', 'Admin Gudang');
         $adminMail->isHTML(true);
         $adminMail->Subject = 'Notifikasi Registrasi User Baru';
         $adminMail->Body = "
